@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FoundryOS Asset",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "audience",
+    "problem",
+    "tier",
+    "assetType",
+    "primaryAction",
+    "template"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "assetType": {
+      "type": "string",
+      "enum": [
+        "calculator",
+        "widget",
+        "scorecard",
+        "landing-page",
+        "generator",
+        "simulator",
+        "dashboard",
+        "portal",
+        "data-room"
+      ]
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coreLogic": {
+      "type": "string"
+    },
+    "primaryAction": {
+      "type": "string"
+    },
+    "delivery": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

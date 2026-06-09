@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "0.3",
+  "id": "the-premium-finance-gap-calculator",
+  "title": "The Premium Finance Gap Calculator",
+  "brand": "Moonshine Capital",
+  "audience": "Commercial Insurance Agents",
+  "industry": "funding-finance",
+  "tier": 1,
+  "assetType": "calculator",
+  "domain": "insurance",
+  "problem": "Losing policy renewals because clients cannot afford the 20-30% premium down payment.",
+  "promise": "Turn losing policy renewals because clients cannot afford the 20-30% premium down payment. into a clear next step.",
+  "primaryAction": "Get My Estimate",
+  "fields": [
+    {
+      "key": "annualPremium",
+      "label": "Annual Premium",
+      "type": "currency",
+      "default": 50000
+    },
+    {
+      "key": "requiredDepositPct",
+      "label": "Required Down Payment %",
+      "type": "percent",
+      "default": 25
+    },
+    {
+      "key": "cashAvailable",
+      "label": "Cash Available",
+      "type": "currency",
+      "default": 7500
+    }
+  ],
+  "formula": {
+    "type": "gap",
+    "label": "Premium Finance Gap",
+    "expression": "annualPremium * requiredDepositPct / 100 - cashAvailable",
+    "resultLabel": "Estimated Gap",
+    "resultFormat": "currency"
+  },
+  "outputs": [
+    "Policy-Bound Checklist & Funding Quote (PDF) 1"
+  ],
+  "benefits": [
+    "Show the exact premium deposit gap.",
+    "Protect renewals before price shock kills the policy.",
+    "Route qualified clients into financing options."
+  ],
+  "leadCapture": {
+    "enabled": true,
+    "fields": [
+      "name",
+      "email",
+      "phone",
+      "company"
+    ],
+    "routingNote": "Replace demo handler with CRM/form/webhook."
+  },
+  "modules": [],
+  "deployment": {
+    "type": "static",
+    "entry": "index.html"
+  },
+  "sourceAsset": {
+    "id": "the-premium-finance-gap-calculator",
+    "name": "The Premium Finance Gap Calculator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Commercial Insurance Agents",
+    "problem": "Losing policy renewals because clients cannot afford the 20-30% premium down payment. 1, 2",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Policy-Bound Checklist & Funding Quote (PDF) 1"
+    ],
+    "coreLogic": "Calculates (Total Premium * Down Payment %) - Available Cash to find the exact financing gap. 1",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  }
+}

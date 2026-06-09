@@ -1,0 +1,2750 @@
+[
+  {
+    "id": "the-premium-finance-gap-calculator",
+    "name": "The Premium Finance Gap Calculator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Commercial Insurance Agents",
+    "problem": "Losing policy renewals because clients cannot afford the 20-30% premium down payment. 1, 2",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Policy-Bound Checklist & Funding Quote (PDF) 1"
+    ],
+    "coreLogic": "Calculates (Total Premium * Down Payment %) - Available Cash to find the exact financing gap. 1",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-urgent-tax-advance-estimator",
+    "name": "The Urgent Tax Advance Estimator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Tax Preparers / Gig Workers",
+    "problem": "Clients owe IRS, risk penalties, and lack the liquid cash to pay. 3, 4",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "IRS Protection Advance Estimate (Summary) 3"
+    ],
+    "coreLogic": "Advance = Avg Rev * 0.5 to 1.5; Penalty Savings = Est. Tax * 0.005 * Months Past Due. 3",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-gig-income-funding-predictor-giggle-finance",
+    "name": "The Gig Income Funding Predictor (\"Giggle Finance\")",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Gig Economy Workers",
+    "problem": "Need instant funding predictions based on app revenue without hard credit pulls. 5, 6",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Back on the Road Funding Score 5"
+    ],
+    "coreLogic": "Avg Weekly Earnings * 4, modified by a seniority factor (e.g., *1.2 for 2+ years). 5",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-neca-material-money-quoter",
+    "name": "The NECA Material Money Quoter",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Trade Contractors",
+    "problem": "Winning a contract but lacking the upfront cash flow to buy materials before the first draw. 7, 8",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Project Material Finance Bridge Quote (PDF) 7"
+    ],
+    "coreLogic": "Advance = Estimated Material Cost (capped at 25% of total job value or $50k). 7",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-turndown-retrieval-script-generator",
+    "name": "The \"Turndown Retrieval\" Script Generator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Bank Loan Officers",
+    "problem": "Bank officers are throwing away rejected leads and losing out on commissions. 9, 10",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "Turndown Retrieval Script (Copy-Paste Text) 9"
+    ],
+    "coreLogic": "Inserts agent and bank branch names into a dynamic \"50/50 commission split\" pitch script. 9",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-blue-collar-banker-lead-qualifier",
+    "name": "The Blue Collar Banker Lead Qualifier",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Funding Agents",
+    "problem": "Agents wasting time pitching non-fundable leads. 11",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Fundability Scorecard (Image) 11"
+    ],
+    "coreLogic": "Deducts points from 100% for each missed underwriting minimum (Revenue, FICO, Time in Business). 11",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-daily-commission-projection-dashboard",
+    "name": "The Daily Commission Projection Dashboard",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "New Affiliate Recruits",
+    "problem": "Need immediate, motivational calculations of daily earning potential. 12",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Daily Paycheck Goal Tracker (Dashboard) 12"
+    ],
+    "coreLogic": "Target Goal / Avg Commission = Deals Needed; Deals * 5 = Required Weekly Leads. 12",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-auto-repair-emergency-advance-tool",
+    "name": "The Auto-Repair Emergency Advance Tool",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Rideshare / Delivery Drivers",
+    "problem": "Car breaks down, and no cash for repairs means no ability to earn income. 13, 14",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Emergency Repair Funding Auth (SMS Link) 13"
+    ],
+    "coreLogic": "Funds up to 100% of the repair estimate, capped at $5,000 based on ride history. 13",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-merchant-cash-advance-mca-repayment-estimator",
+    "name": "The Merchant Cash Advance (MCA) Repayment Estimator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Retail / Restaurants",
+    "problem": "Uncertainty about how daily MCA deductions will impact operating cash flow. 15",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Daily Cash Flow Impact Report (Table) 15"
+    ],
+    "coreLogic": "Total Repayment = Advance * Factor Rate; Daily Payment = Total Repayment / 90. 15",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-competitor-meet-or-beat-submitter",
+    "name": "The Competitor \"Meet or Beat\" Submitter",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Skeptical Business Owners",
+    "problem": "Skepticism about rates and predatory terms from other lenders. 16, 17",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Risk-Free Guarantee Certificate 16"
+    ],
+    "coreLogic": "Captures competitor offer and verifies qualification for the $500 \"Beat It\" guarantee. 16",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-referral-commission-payout-estimator",
+    "name": "The Referral Commission Payout Estimator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Partner Agents",
+    "problem": "Affiliates want transparent expectations on exact commission payouts. 18",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Daily Commission Snapshot (Chart) 18"
+    ],
+    "coreLogic": "Client Funding Amount * Base Rate (Adjusted by New/Bronze/Silver tier). 18",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-buy-here-pay-here-down-payment-bridge",
+    "name": "The Buy-Here-Pay-Here Down Payment Bridge",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Auto Dealerships",
+    "problem": "Customer is short on a vehicle down payment, killing the car sale. 19",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Vehicle Deposit Authorization (Voucher) 19"
+    ],
+    "coreLogic": "Vehicle Down Payment Required - Customer Cash Available (Capped at $1,500). 19",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-trade-association-profit-split-calculator",
+    "name": "The Trade Association Profit-Split Calculator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Trade Associations",
+    "problem": "Associations need non-dues revenue streams. 20, 21",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Association Revenue Projection Dashboard 20"
+    ],
+    "coreLogic": "Members * 5% Funding Rate * Avg Amount * 1% Override = Annual Revenue. 20",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-credit-score-vs-cash-flow-analyzer",
+    "name": "The Credit Score vs. Cash Flow Analyzer",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Sub-Prime Micro-Businesses",
+    "problem": "Feeling penalized by traditional banks for low FICO scores despite strong revenue. 22",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Bankability Shift Report (Image) 22"
+    ],
+    "coreLogic": "Compares FICO (<600 = Bank Fail) against Monthly Deposits (>$5k = Breezy Pass). 22",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-cold-lead-monetization-calculator",
+    "name": "The Cold Lead Monetization Calculator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Equipment Leasing Agents",
+    "problem": "Throwing away rejected lease applications instead of monetizing them. 23",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Lost Commission Recovery Report 23"
+    ],
+    "coreLogic": "Rejected Leads * 15% Conversion * Avg Amount * 3% Comm * Split. 23",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-payroll-bridge-funding-quoter",
+    "name": "The Payroll Bridge Funding Quoter",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Service Businesses",
+    "problem": "Client Net-30 payments are delayed, and Friday payroll must be met. 24",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Weekly Payroll Liquidity Plan 24"
+    ],
+    "coreLogic": "Recommends an advance equal to Total Weekly Payroll * 2 (up to $100k). 24",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-trucker-repair-to-revenue-tracker",
+    "name": "The Trucker Repair-to-Revenue Tracker",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Independent Truckers",
+    "problem": "Expensive truck repairs halt cash flow, causing panic. 25",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Repair ROI Timeline (Chart) 25"
+    ],
+    "coreLogic": "Calculates Days to Recover = Repair Cost / (Avg Weekly Revenue / 7). 25",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-passive-income-network-builder",
+    "name": "The Passive Income Network Builder",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "\"Networker Nate\" Persona",
+    "problem": "Needs to see the exponential power of recruiting sub-agents to build downlines. 26",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "3-Tier Override Projection (Table) 26"
+    ],
+    "coreLogic": "(Recruits * 4) * Avg T1 Commission * 0.5% override = Tier 2/3 Est. 26",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bank-firing-risk-score",
+    "name": "The \"Bank Firing\" Risk Score",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Established Business Owners",
+    "problem": "Risk of rejection due to tightening Tier-1 banking standards. 27",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Traditional Bank Risk Score 27"
+    ],
+    "coreLogic": "Deducts points from 100 for <$250k Rev or <700 FICO. Score <50 = 85% Rejection Risk. 27",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-equipment-leasing-deposit-calculator",
+    "name": "The Equipment Leasing Deposit Calculator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Leasing Brokers",
+    "problem": "Customers cannot afford the initial large security deposit for equipment leases. 28",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Equipment Lease Deposit Bridge Quote 28"
+    ],
+    "coreLogic": "Advance = Required Lease Deposit/Payment (capped at $25,000). 28",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-same-day-vs-60-day-cost-analyzer",
+    "name": "The Same-Day vs. 60-Day Cost Analyzer",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Cost-Conscious Owners",
+    "problem": "Waiting 60 days for a cheap bank loan costs more in lost revenue than a fast, expensive loan. 29",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Opportunity Cost Report 29"
+    ],
+    "coreLogic": "Average Daily Revenue * Days Lost Waiting for Bank = Revenue Lost. 29",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-tax-prep-fee-advance-solution",
+    "name": "The Tax Prep Fee Advance Solution",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Independent Enrolled Agents",
+    "problem": "Clients need cash for their IRS tax bill and the preparer's fee. 30",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Tax Preparation Fee Guarantee (Voucher) 30"
+    ],
+    "coreLogic": "Advances the Tax Preparation Fee (up to $2,500) directly to the preparer's account. 30",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bad-credit-good-business-certifier",
+    "name": "The \"Bad Credit, Good Business\" Certifier",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Bad-Credit Entrepreneurs",
+    "problem": "Psychological discouragement from prior rejections. 31",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Good Business Certificate (Image) 31"
+    ],
+    "coreLogic": "If Months of Positive Cash Flow > 6, it overrides FICO and outputs a \"Pass\". 31",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-service-industry-tip-to-revenue-translator",
+    "name": "The Service Industry Tip-to-Revenue Translator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Salons & Restaurants",
+    "problem": "Need to quantify credit card tips to prove steady revenue capacity to underwriters. 32",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Credit Card Tip Flow Analysis 32"
+    ],
+    "coreLogic": "Repayment Capacity = (Daily CC Tip Rev + Daily CC Sale Rev) * 0.15. 32",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-neca-endorsement-value-illustrator",
+    "name": "The NECA Endorsement Value Illustrator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Skeptical Contractors",
+    "problem": "Skepticism regarding alternative lender trust. 33",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Trust & Approval Rating (Gauge) 33"
+    ],
+    "coreLogic": "Outputs a high trust factor based on national trade association (NECA) backing. 33",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-competitor-rate-to-factor-rate-translator",
+    "name": "The Competitor Rate-to-Factor Rate Translator",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Comparison Shoppers",
+    "problem": "Confusion comparing traditional time-based APRs to fixed MCA Factor Rates. 34",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Loan Terms Comparison Table 34"
+    ],
+    "coreLogic": "Translates Factor Rate (e.g., 1.18) to \"$1.18 paid for every $1.00 borrowed\". 34",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "cash-flow-gap-bridge-calculator",
+    "name": "Cash Flow Gap Bridge Calculator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "B2B Service Providers",
+    "problem": "Finding the minimum MCA needed to cover immediate payroll/invoice gaps in under 60 seconds. 35",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Emergency Funding Requirement (PDF) 35"
+    ],
+    "coreLogic": "Cash Flow Gap Amount * 1.25 (Factor Buffer) = Needed MCA. 35",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "fix-and-flip-roi-max-loan-estimator",
+    "name": "Fix-and-Flip ROI & Max Loan Estimator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Real Estate Investors",
+    "problem": "Hard money deal analysis to find max loan amount and potential ROI. 36",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Deal Profitability Scorecard (PDF) 36"
+    ],
+    "coreLogic": "Max Loan = ARV * 0.75 LTV (Aligns with Hard Money limits). 36",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "startup-funding-eligibility-quiz",
+    "name": "Startup Funding Eligibility Quiz",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "0-Month Startups",
+    "problem": "Brand new businesses (0 months) need pre-qualification without business history. 37",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "70-Second Eligibility Score 37"
+    ],
+    "coreLogic": "If FICO > 700 & Tradelines >= 5 -> Green Light (Startup Loan). Else -> Credit Incubator. 37",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "bank-rejected-second-look-finder",
+    "name": "\"Bank-Rejected\" Second Look Finder",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "\"Rejected Ray\" Persona",
+    "problem": "Identifying viable alternatives after a rigid traditional bank denial. 38",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Second-Chance Funding Match (PDF) 38"
+    ],
+    "coreLogic": "Maps bank rejection reasons (e.g., Tax Lien, Time in Biz) to GoKapital's lenient products. 38",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "real-estate-proof-of-funds-pof-generator",
+    "name": "Real Estate Proof of Funds (POF) Generator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Real Estate Wholesalers",
+    "problem": "Need an instant Proof of Funds letter to submit aggressive real estate offers. 39",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "Conditional Pre-Qualification Letter 39"
+    ],
+    "coreLogic": "Generates a conditional pre-qualification up to 80% LTV of the input offer amount. 39",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "sba-denial-pivot-tool",
+    "name": "SBA Denial Pivot Tool",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Friction-Intolerant Founders",
+    "problem": "Cannot wait the 1-3 months required for SBA 7(a) loan approval. 40",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Fast Funding Alternatives Checklist 40"
+    ],
+    "coreLogic": "If time <30 days, pivots to MCA/Term. If >90 days, anchors to SBA with a Term alternative. 40",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "bad-credit-business-funding-match",
+    "name": "Bad Credit Business Funding Match",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Low-FICO Borrowers",
+    "problem": "Need to match a sub-prime profile to the lowest-barrier GoKapital product. 41",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "My Best Funding Options Dashboard 41"
+    ],
+    "coreLogic": "Maps FICO: None->MCA, 500->Term Loan, 580->Equipment, 650->Hard Money. 41",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "equipment-payment-estimator",
+    "name": "Equipment Payment Estimator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Heavy Industry / Trucking",
+    "problem": "Need to estimate monthly costs for financing business equipment with bad credit. 42",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Equipment Financing Estimate (Quote) 42"
+    ],
+    "coreLogic": "Applies 6% to 35% cost range based on low-FICO (580+) equipment financing rates. 42",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "lender-readiness-score",
+    "name": "Lender-Readiness Score",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "High-Churn Affiliates' Leads",
+    "problem": "Assessing profiles against full criteria to create a 60-day action plan for unbankable leads. 43",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Your 60-Day Funding Action Plan 43"
+    ],
+    "coreLogic": "Assigns 0-100 score and specific gap tasks (e.g., \"Get 2 More Tradelines\"). 43",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "competitor-rejection-analyzer",
+    "name": "Competitor Rejection Analyzer",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Disgruntled Competitor Leads",
+    "problem": "Rejected by algorithm-only competitors (e.g., OnDeck, BlueVine). 44",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Your GoKapital Backdoor Pass (Guide) 44"
+    ],
+    "coreLogic": "Maps competitor's rigid algorithm constraints to GoKapital's flexible human brokerage. 44",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "invoice-to-cash-flow-gap-analyzer",
+    "name": "Invoice-to-Cash Flow Gap Analyzer",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Trade Contractors",
+    "problem": "Need to calculate exact cash runway before a late client payment destroys them. 45",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Your Cash Runway & Survival Score 45"
+    ],
+    "coreLogic": "Cash Runway = (Cash on Hand / Monthly Expenses) * 30. Triggers alert if Runway < Payment Days. 45",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "gig-worker-back-on-the-road-calculator",
+    "name": "Gig Worker \"Back on the Road\" Calculator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Rideshare Drivers",
+    "problem": "Vehicle is in the shop; daily lost income exceeds the cost of financing the repair. 46",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Your Daily Lost Income Counter (Widget) 46"
+    ],
+    "coreLogic": "Lost Income = Daily Earnings * Days Out. Compares to Repair Cost to justify emergency funding. 46",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "tax-payment-advance-estimator",
+    "name": "Tax Payment Advance Estimator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Schedule C Filers",
+    "problem": "Need quarterly tax funding to avoid IRS installment plan penalties. 47",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "IRS Payment Plan vs. Advance Comparison 47"
+    ],
+    "coreLogic": "Estimated Tax Owed = (Gross - Expenses) * Est. Tax Rate. Compares loan cost vs IRS penalty. 47",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "material-cost-inflation-tracker",
+    "name": "Material Cost Inflation Tracker",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Construction Contractors",
+    "problem": "Material prices surged since the bid; need to cover the budget gap. 48",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Your Material Budget Gap Dashboard 48"
+    ],
+    "coreLogic": "Applies indexed inflation rates (e.g., copper +12%) to original budget to display \"Funding Gap\". 48",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "premium-finance-double-commission-calc",
+    "name": "Premium Finance \"Double Commission\" Calc",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Insurance Agents",
+    "problem": "Agents losing renewals to cash flow want to see how funding clients makes them more money. 49",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Your Revenue Retention Opportunity Report 49"
+    ],
+    "coreLogic": "(Clients Lost * Premium * Comm Rate) + Funding Commission = New Revenue. 49",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "meet-or-beat-rate-comparison-tool",
+    "name": "\"Meet or Beat\" Rate Comparison Tool",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Skeptical Borrowers",
+    "problem": "Want to verify GoKapital's $500 guarantee against a current MCA offer. 50",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "$500 Guarantee Qualification Letter 50"
+    ],
+    "coreLogic": "Standardizes input factor rates/APRs. If GoKapital beats by 5%+, qualifies for guarantee. 50",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "equipment-roi-payment-calculator",
+    "name": "Equipment ROI & Payment Calculator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Business Operators",
+    "problem": "Checking if new equipment revenue outpaces the monthly financing payment. 51",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Equipment Investment Profitability Forecast 51"
+    ],
+    "coreLogic": "If Expected Additional Monthly Revenue > Estimated Payment + 20%, outputs Green Light. 51",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "restaurant-walk-in-emergency-tool",
+    "name": "Restaurant \"Walk-In Emergency\" Tool",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Restaurant Owners",
+    "problem": "Critical kitchen equipment (walk-in fridge) fails, causing daily spoilage/lost sales. 52",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Emergency Equipment Replacement Estimate 52"
+    ],
+    "coreLogic": "Urgency Score = Daily Revenue Lost * 7 days. If > Replacement Cost, triggers emergency path. 52",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "payroll-gap-bridge-estimator",
+    "name": "Payroll Gap Bridge Estimator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Service Businesses",
+    "problem": "Need exact funding required to hit Friday payroll while waiting on receivables. 53",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Friday Payroll Protection Plan (PDF) 53"
+    ],
+    "coreLogic": "Total Payroll Amount - Current Cash Available = Funding Needed. Suggests Term/MCA. 53",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "embedded-finance-widget",
+    "name": "Embedded Finance Widget",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "CPAs & Auto Dealers",
+    "problem": "Partners need a white-label pre-qualification tool embedded on their own websites. 54",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Embeddable White-Label Widget 54"
+    ],
+    "coreLogic": "Collects Revenue/Need/Contact and routes directly to GoKapital CRM with partner tracking. 54",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "wholesaler-real-estate-deal-analyzer-pro",
+    "name": "Wholesaler/Real Estate \"Deal Analyzer\" Pro",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Real Estate Wholesalers",
+    "problem": "Needs to run full deal math AND generate a proof of funds instantly. 55",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Deal Package with Pre-Qualification Letter 55"
+    ],
+    "coreLogic": "(ARV * 0.75) - Rehab. If margin >15%, auto-generates conditional POF letter for property. 55",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "turndown-retrieval-lead-magnet-template",
+    "name": "\"Turndown Retrieval\" Lead Magnet Template",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "Bank Loan Officers",
+    "problem": "Need a ready-made asset to hand to rejected applicants to salvage the lead. 56",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "Co-Branded Alternative Funding PDF 56"
+    ],
+    "coreLogic": "Pre-written explanations of bank denials combined with partner's custom referral link. 56",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "daily-pay-commission-calculator",
+    "name": "\"Daily Pay Commission\" Calculator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "New Affiliate Recruits",
+    "problem": "Want to compare GoKapital's daily payouts against traditional Net-30 affiliate programs. 57",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Your Daily Income Simulator 57"
+    ],
+    "coreLogic": "(Weekly Deals * Deal Size * Commission) / 5 days = Daily Income. 57",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "supply-house-partnership-landing-page",
+    "name": "Supply House Partnership Landing Page",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "B2B Agents",
+    "problem": "Agents need a digital asset to pitch supply houses on offering contractor financing. 58",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Customizable Static HTML Page 58"
+    ],
+    "coreLogic": "Pre-built \"Help Your Customers Buy More\" HTML form to capture supply house contacts. 58",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "credit-incubator-roadmap-generator",
+    "name": "\"Credit Incubator\" Roadmap Generator",
+    "brand": "GoKapital",
+    "industry": "funding-finance",
+    "audience": "\"Declined Danny\" Persona",
+    "problem": "Needs a 60-90 day rehabilitation plan after being rejected for all standard funding. 59",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "Your Path to Funding Approval PDF 59"
+    ],
+    "coreLogic": "Identifies specific gaps (e.g., need 3 more months in biz, 2 more tradelines) and builds step plan. 59",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-stockout-death-spiral-estimator",
+    "name": "The \"Stockout Death Spiral\" Estimator",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Amazon FBA Sellers",
+    "problem": "Underestimating the true cost of stocking out (lost sales + lost SEO ranking). 60",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "\"Damage Report\" PDF 60"
+    ],
+    "coreLogic": "(Daily Rev * Days Out) + Estimated Re-Ranking Ad Spend + CLV Loss. 60",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-equity-saver-shield-vc-vs-8fig",
+    "name": "The Equity-Saver Shield (VC vs. 8fig)",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "High-Growth Founders",
+    "problem": "Thinking VC money is \"free\" without realizing the millions lost in equity dilution at exit. 61",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Founder Ownership Dashboard 61"
+    ],
+    "coreLogic": "(Exit Value * Equity %) - (8fig Cost of Capital) = Total Savings. 61",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-boat-to-bank-gap-analyzer",
+    "name": "The \"Boat-to-Bank\" Gap Analyzer",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Importers / FBA Sellers",
+    "problem": "Cash is \"dead\" and inaccessible while inventory is trapped on cargo ships. 62",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Cash Gap Timeline Infographic 62"
+    ],
+    "coreLogic": "Maps the \"Dead Zone\" days between factory \"Cash Out\" and Amazon \"First Dollar In\". 62",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-mca-shark-auditor",
+    "name": "The MCA \"Shark\" Auditor",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "E-commerce Operators",
+    "problem": "Merchant Cash Advances hide their triple-digit APRs behind opaque \"Factor Rates\". 63",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Audit Certificate 63"
+    ],
+    "coreLogic": "Converts Factor Rate and Daily Holdback % into an effective annualized APR. 63",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-viral-hit-stress-test",
+    "name": "The \"Viral Hit\" Stress Test",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "TikTok/Shopify Brands",
+    "problem": "A viral video spikes demand 5x, leading to an immediate stockout and brand death. 64",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Supply Chain Fragility Score 64"
+    ],
+    "coreLogic": "Stock / (Monthly Units * 5). Fails stress test if result < Supplier Lead Time. 64",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-asset-light-roi-multiplier",
+    "name": "The \"Asset-Light\" ROI Multiplier",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "E-commerce Scalers",
+    "problem": "Unsure whether to allocate capital to inventory replenishment or Facebook Ads. 65",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Capital Allocation Map 65"
+    ],
+    "coreLogic": "Compares the compounding ROI of flipping inventory against one-time ad attribution. 65",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-amazon-payout-bridge-predictor",
+    "name": "The \"Amazon Payout\" Bridge Predictor",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "High-Velocity Sellers",
+    "problem": "Amazon's 14-day payout hold kills the ability to pay the next manufacturing deposit. 66",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Payout Bridge Checklist 66"
+    ],
+    "coreLogic": "Calculates the gap between Amazon's disbursement schedule and the factory's PO due date. 66",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-q4-war-room-po-planner",
+    "name": "The Q4 \"War-Room\" PO Planner",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Q4 Sprinters",
+    "problem": "Ordering inventory too late for major events (Black Friday, Chinese New Year). 67",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Q4 Logistics Calendar (.ics/PDF) 67"
+    ],
+    "coreLogic": "Back-calculates the exact date a PO must be funded to land 14 days before the sales event. 67",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-ghost-revenue-interceptor",
+    "name": "The \"Ghost Revenue\" Interceptor",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Inventory Managers",
+    "problem": "Blindness to the massive invisible revenue lost from historical stockouts. 68",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Ghost Revenue Report 68"
+    ],
+    "coreLogic": "Days Out of Stock * Avg Daily Sales = Ghost Revenue. 68",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-landed-cost-profit-leak-finder",
+    "name": "The \"Landed Cost\" Profit Leak Finder",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Margin-Squeezed Sellers",
+    "problem": "Ignoring hidden logistics costs (storage, shipping spikes) resulting in false profit views. 68",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Profit Leakage Checklist 68"
+    ],
+    "coreLogic": "Revenue - (Factory Price + Shipping + Storage + Ad CPA) = Net Net Margin. 68",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-exit-value-accelerator",
+    "name": "The \"Exit Value\" Accelerator",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Founders looking to sell",
+    "problem": "Business valuation/EBITDA is suppressed because of historical stockout periods. 69",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Exit Strategy Road Map 69"
+    ],
+    "coreLogic": "(New EBITDA * Multiple) - Current Valuation = Valuation Increase. 69",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-air-freight-panic-button",
+    "name": "The \"Air Freight\" Panic Button",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Logistics Managers",
+    "problem": "Deciding if 5x air freight costs are worth it to avoid a 45-day sea freight stockout. 70",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Logistics Triage Card 70"
+    ],
+    "coreLogic": "If (Profit * Days Saved) > (Air Cost - Sea Cost), recommendation is to fly it. 70",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-big-box-trap-simulator-net-90",
+    "name": "The \"Big Box\" Trap Simulator (Net-90)",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Wholesale Brands",
+    "problem": "Landing a huge retail PO but going bankrupt fulfilling it due to Net-90 payment terms. 71",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Wholesale Readiness Scorecard 71"
+    ],
+    "coreLogic": "Plots Cash Balance over 90 days. If the line crosses zero, seller dies before getting paid. 71",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-zombie-sku-hunter",
+    "name": "The \"Zombie SKU\" Hunter",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "E-commerce Operators",
+    "problem": "80% of operating cash is tied up in 20% of dead inventory that refuses to sell. 72",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Dead Stock Hitlist 72"
+    ],
+    "coreLogic": "Marks SKU as \"Zombie\" if supply >6 months and margin contribution <10%. 72",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-ad-cost-inflation-forecaster",
+    "name": "The \"Ad Cost\" Inflation Forecaster",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Q4 Advertisers",
+    "problem": "Budgeting based on summer CPA, leading to cash burnout when Q4 CPMs spike. 73",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Q4 Margin Stress Test Graph 73"
+    ],
+    "coreLogic": "Applies a \"Q4 Multiplier\" (e.g., 1.4x) to ad costs, showing when profit turns to loss. 73",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-golden-quarter-bonus-calculator",
+    "name": "The \"Golden Quarter\" Bonus Calculator",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Bootstrapped Founders",
+    "problem": "Founders pay themselves last and want to visualize their personal take-home pay potential. 74",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Founder's Check (Mock Graphic) 74"
+    ],
+    "coreLogic": "Revenue * Net Margin * (1 - Reinvest %) = Personal Founder Bonus. 74",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-supplier-bully-power-meter",
+    "name": "The \"Supplier Bully\" Power Meter",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Small Brands",
+    "problem": "Overseas factories dictate harsh terms (30% deposit upfront) because the seller is small. 75",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Supplier Negotiation Script (PDF) 75"
+    ],
+    "coreLogic": "Compares volume to benchmarks. If >$500k, seller has leverage to demand Net-30 terms. 75",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-discount-death-spiral-check",
+    "name": "The \"Discount\" Death Spiral Check",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Desperate Sellers",
+    "problem": "Running deep discount sales for cash flow, unknowingly destroying unit economics. 76",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Discount Danger Gauge 76"
+    ],
+    "coreLogic": "Standard break-even analysis calculating the massive volume increase needed to maintain profit. 76",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-amazon-fees-fines-auditor",
+    "name": "The Amazon \"Fees & Fines\" Auditor",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "FBA Sellers",
+    "problem": "FBA storage and low-inventory fees silently eating margins before payouts hit. 77",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Bezos Tax Receipt 77"
+    ],
+    "coreLogic": "Applies current Amazon rate cards to dimensions/storage days to reveal real FBA take-rate. 77",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-subscription-box-churn-burner",
+    "name": "The \"Subscription Box\" Churn Burner",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Subscription Brands",
+    "problem": "Ordering physical goods before renewals process; high churn results in dead stock. 78",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Subscription Risk Profile 78"
+    ],
+    "coreLogic": "(Subscribers * (1 - Churn)) * Cost. Calculates cash wasted against churn volatility. 78",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-influencer-break-even-calculator",
+    "name": "The \"Influencer\" Break-Even Calculator",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "DTC Brand Owners",
+    "problem": "Paying influencers upfront without knowing the actual product volume needed to break even. 78",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Influencer ROI Contract 78"
+    ],
+    "coreLogic": "Fee / Margin = Units to Break Even; Units / Conv Rate = Traffic Needed. 78",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-3pl-switching-cost-calculator",
+    "name": "The \"3PL\" Switching Cost Calculator",
+    "brand": "8fig",
+    "industry": "funding-finance",
+    "audience": "Logistics Managers",
+    "problem": "Hating current 3PL but paralyzed by the massive one-time cost of moving pallets of stock. 79",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Logistics Migration Plan 79"
+    ],
+    "coreLogic": "Move Cost / ((Current Fee - New Fee) * Monthly Vol) = Months to Break Even. 79",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-dd-7-impact-calculator",
+    "name": "The DD+7 Impact Calculator",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Amazon Sellers",
+    "problem": "Amazon's DD+7 policy change permanently locks up a massive portion of working capital. 80",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Liquidity Loss Report (PDF) 80"
+    ],
+    "coreLogic": "(New DD+7 Cycle - Current Payout Cycle) * Average Daily Sales = Cash Loss. 80",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-inventory-turnover-accelerator",
+    "name": "The Inventory Turnover Accelerator",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Velocity Traders",
+    "problem": "Reluctance to pay a 2% advance fee because they don't see the velocity ROI. 81",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Inventory ROI Projection (Chart) 81"
+    ],
+    "coreLogic": "Calculates Turns Lost waiting 14 days, then applies a 30% velocity multiplier for daily payouts. 81",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-fee-nullifier-cash-back-calculator",
+    "name": "The \"Fee Nullifier\" Cash Back Calculator",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Fee-Averse Sellers",
+    "problem": "Objection to advance fees masking the offsetting value of 2% cash back cards. 82",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Net Cost of Capital Report (Table) 82"
+    ],
+    "coreLogic": "Gross Fee (Advance * 2%) - Cash Back (Advance * Reinvest % * 2%) = Net Cost. 82",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "tiktok-shop-viral-curse-predictor",
+    "name": "TikTok Shop Viral Curse Predictor",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "TikTok Shop Sellers",
+    "problem": "TikTok holds funds for 15-30 days; viral sales cause stockouts and late dispatch suspensions. 83",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "LDR Risk Assessment Score 83"
+    ],
+    "coreLogic": "Current Cash / (Units Sold * Supplier Cost). If < 1.0, triggers \"Critical\" suspension risk. 83",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "account-level-reserve-hostage-calculator",
+    "name": "Account Level Reserve Hostage Calculator",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Confused New Sellers",
+    "problem": "Visceral anger at earned money being held hostage in the abstract \"Account Level Reserve\". 84",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Trapped Capital Opportunity Cost (Image) 84"
+    ],
+    "coreLogic": "Reserve Balance * Avg Net Profit Margin * 1 extra turn/mo = Missed Profit. 84",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-cpa-bookkeeper-fee-integration-tool",
+    "name": "The CPA/Bookkeeper Fee Integration Tool",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Accounting Partners",
+    "problem": "CPAs hate chasing clients for invoices who are waiting on Amazon payouts. 85",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Seamless Vendor Payment Checklist 85"
+    ],
+    "coreLogic": "Uses the Average Client Invoicing Delay to output an integration checklist to guarantee CPA fees. 85",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-supply-chain-hostage-release-timer",
+    "name": "The Supply Chain Hostage Release Timer",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Import Sellers",
+    "problem": "Missing a supplier wire deadline causes a catastrophic Q4 stockout. 86",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Stockout Risk Report (PDF) 86"
+    ],
+    "coreLogic": "Out of Stock Units * (Days Since OOS * Avg Daily Unit Sales) = Missed Sales Revenue. 86",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-fba-prep-center-payout-predictor",
+    "name": "The FBA Prep Center Payout Predictor",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "3PL / Prep Centers",
+    "problem": "Prep centers suffering cash flow delays because their seller clients are cash-poor. 87",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Guaranteed Payout Flowchart 87"
+    ],
+    "coreLogic": "Guarantees prep center invoice payment within 24 hours of Payability funding the seller. 87",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-black-box-amazon-lending-score",
+    "name": "The \"Black Box\" Amazon Lending Score",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "High-Volume Sellers",
+    "problem": "Amazon Lending is a black box, invite-only, and vanishes when sales dip. 88",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Lending Access Audit (Scorecard) 88"
+    ],
+    "coreLogic": "If no active invite, status is \"LOCKED\", positioning Payability as the immediate alternative. 88",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-cost-of-waiting-vs-cost-of-fee-analyzer",
+    "name": "The Cost of Waiting vs. Cost of Fee Analyzer",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Rational Sellers",
+    "problem": "Rationalizing the cost of borrowing capital against the opportunity cost of waiting. 89",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "The Winning Math Report 89"
+    ],
+    "coreLogic": "Compares Margin vs 2% Fee. If Margin > Fee, nets a win by allowing 14 extra days of sales. 89",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-wholesale-distributor-payout-gap-closer",
+    "name": "The Wholesale Distributor Payout Gap Closer",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Wholesale Distributors",
+    "problem": "Distributors forced to buy less profitable items because their cash is constrained. 90",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Distributor Profit Gap Analysis 90"
+    ],
+    "coreLogic": "Total Purchase Volume * (Desired Stock Margin - Constrained Stock Margin) = Profit Gap. 90",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-multi-channel-expansion-forecaster",
+    "name": "The Multi-Channel Expansion Forecaster",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Single-Channel Sellers",
+    "problem": "Missing revenue by not expanding to Walmart/Shopify due to lack of setup capital. 91",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Missed Channel Revenue Projection 91"
+    ],
+    "coreLogic": "Amazon Monthly Rev * 12 * Assumed Lift % = Missed Annual Revenue from not expanding. 91",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-seasonal-stock-up-stress-reliever",
+    "name": "The Seasonal Stock-Up Stress Reliever",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Q4 Inventory Buyers",
+    "problem": "Panic about not ordering enough holiday inventory fast enough due to lead times. 92",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Seasonal Inventory Funding Timeline 92"
+    ],
+    "coreLogic": "(Daily Sales * Peak Multiplier * Lead Time) - Current Stock mapped to a funding timeline. 92",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-freight-forwarder-funding-guarantee",
+    "name": "The Freight Forwarder Funding Guarantee",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Freight Forwarders",
+    "problem": "Forwarders facing massive payment risk on shipping/duties invoices from cash-poor sellers. 93",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Seller Payment Reliability Score 93"
+    ],
+    "coreLogic": "Assures forwarder that client cash is released 14-28 days faster, eliminating invoice risk. 93",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-q4-profit-erosion-forecaster",
+    "name": "The Q4 Profit Erosion Forecaster",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Desperate Q4 Sellers",
+    "problem": "Taking high-interest emergency MCAs during peak season erodes all net profit. 94",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Q4 Margin Protector Audit 94"
+    ],
+    "coreLogic": "Total Q4 Inventory Needed * Interest Rate of Alternative Loan = Avoided Interest Cost. 94",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-customer-review-velocity-builder",
+    "name": "The Customer Review Velocity Builder",
+    "brand": "Payability",
+    "industry": "funding-finance",
+    "audience": "Private Label Sellers",
+    "problem": "Slow cash limits launch inventory, delaying customer reviews and organic ranking. 95",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Review Velocity Acceleration Model 95"
+    ],
+    "coreLogic": "Days Saved * Avg Daily Sales * Review Conversion Rate = Extra Reviews Gained. 95",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bezos-interest-calculator",
+    "name": "The \"Bezos Interest\" Calculator",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Arbitrage Sellers",
+    "problem": "Visualizes the opportunity cost of Amazon holding seller funds for 14 days. 96",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Lost Profit Receipt 97"
+    ],
+    "coreLogic": "Payout * (ROI% / 100) * (26 periods / 12). Calculates profit generated if reinvested instantly. 97",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-stockout-bleed-auditor",
+    "name": "The Stockout \"Bleed\" Auditor",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "\"Stockout Steve\" Persona",
+    "problem": "Quantifies the dollar damage of waiting for a wire transfer while out of stock. 98",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Hemorrhage Report 98"
+    ],
+    "coreLogic": "(Daily Sales * Profit * Days) + a 1.5x penalty for lost BSR ranking recovery costs. 98",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-velocity-multiplier-simulator",
+    "name": "The \"Velocity Multiplier\" Simulator",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Scale-Minded Sellers",
+    "problem": "Need to see the exponential math of flipping inventory 4x a month instead of 1x. 99",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "The J-Curve Graph 99"
+    ],
+    "coreLogic": "Models compound capital growth over 90 days at 30-day (standard) vs 7-day (OnRamp) intervals. 99",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-dd-7-reality-calendar",
+    "name": "The \"DD+7\" Reality Calendar",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "All Amazon Sellers",
+    "problem": "Confusion around Amazon's shift to a \"Delivery Date + 7 Days\" reserve policy. 100",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Cash Gap Calendar 100"
+    ],
+    "coreLogic": "Amazon Date (Ship + Delivery + 7 + 3) vs OnRamp Date (Ship + 0). Highlights the Danger Zone. 100",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-prep-center-shock-audit-2026",
+    "name": "The Prep Center \"Shock\" Audit (2026)",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "High-Volume Resellers",
+    "problem": "Amazon ending FBA prep means 3PLs demand upfront cash, gridlocking supply chains. 101",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Liquidity Trap Warning (PDF) 101"
+    ],
+    "coreLogic": "Monthly Units * Prep Fee = Upfront Cash Requirement needed before Amazon pays out. 101",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-wholesale-deal-sniper-analyzer",
+    "name": "The Wholesale \"Deal Sniper\" Analyzer",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Clearance Hunters",
+    "problem": "Staring at a limited-time 40% off clearance lot and needing a go/no-go funding decision. 102",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "The Green Light Card 102"
+    ],
+    "coreLogic": "If (Projected Profit - Advance Fee) / Deal Cost > 10%, outputs \"SNIPE IT\". 102",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-unbankable-fundability-quiz",
+    "name": "The \"Unbankable\" Fundability Quiz",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Minority/Arbitrage Sellers",
+    "problem": "Rejected by DTC-brand-only lenders (like Wayflyer) because they sell arbitrage goods. 103",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The 'Credit-Agnostic' Certificate 103"
+    ],
+    "coreLogic": "If Rev > $3k and Platform = Amazon, issues instant approval based on store data, not FICO. 103",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-q4-load-up-capacity-calculator",
+    "name": "The Q4 \"Load Up\" Capacity Calculator",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Q4 Sprinters",
+    "problem": "Limited cash limits the volume of inventory a seller can front-load for Q4. 104",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Inventory Mountain (Visual) 104"
+    ],
+    "coreLogic": "Simulates 3-4 funding/restock cycles within the short Q4 window to show maximum capacity. 104",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-deferred-transaction-unlocker",
+    "name": "The \"Deferred Transaction\" Unlocker",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Frustrated Sellers",
+    "problem": "Anger over Amazon labeling earned cash as \"Deferred Transactions\" in Seller Central. 105",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Unlock Key (Animation) 105"
+    ],
+    "coreLogic": "Dashboard Balance * 0.80 = Instantly Unlockable Amount within 4 hours. 105",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-zombie-inventory-detector",
+    "name": "The \"Zombie Inventory\" Detector",
+    "brand": "Onramp Funds",
+    "industry": "funding-finance",
+    "audience": "Inventory Managers",
+    "problem": "Aged inventory storage surcharges eating away at margins. 106",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "The Dead Stock Report 106"
+    ],
+    "coreLogic": "Compares long-term holding cost against liquidating and reinvesting via OnRamp. 106",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-payroll-panic-countdown-timer",
+    "name": "The \"Payroll Panic\" Countdown Timer",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Subcontractors",
+    "problem": "Waiting on Net-60 GC check while Friday payroll approaches, risking crew walk-off. 107, 108",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Survival Dashboard PDF 108"
+    ],
+    "coreLogic": "Current Balance / (Payroll * 1.18 / 5) = Days to Zero. Alerts if < Payment Date. 108",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bid-protector-inflation-adjuster",
+    "name": "The \"Bid Protector\" Inflation Adjuster",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Construction Estimators",
+    "problem": "Bidding jobs 3 months out while volatile material prices (copper/PVC) eat margins. 109",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Safe Bid Certificate 109"
+    ],
+    "coreLogic": "Material Cost * (Inflation Factor * Duration). Outputs a Risk Buffer to add to the bid. 109",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-net-90-opportunity-cost-calculator",
+    "name": "The \"Net-90\" Opportunity Cost Calculator",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Trades & Agencies",
+    "problem": "Thinking saving a 2% funding fee is better than getting cash early to bid new jobs. 110",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Lost Profit Report 110"
+    ],
+    "coreLogic": "Annualized Cost of Waiting = (Potential Jobs Missed * Avg Profit) / Invoice Amount. 110",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-repair-vs-replace-roi-engine",
+    "name": "The \"Repair vs. Replace\" ROI Engine",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Owner-Operator Truckers",
+    "problem": "Semi-truck engine blows; emotional decision between a $25k rebuild or an $80k new truck. 111",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Financial Roadmap Chart 111"
+    ],
+    "coreLogic": "Calculates Cash Flow Difference between the Repair Path and Replace Path over 12 months. 111",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-spot-market-breakeven-calculator",
+    "name": "The \"Spot Market\" Breakeven Calculator",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Freight Logistics",
+    "problem": "Spot rates drop, truckers unsure of minimum Rate Per Mile (RPM) to cover insurance/fuel. 112",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Minimum Acceptable Rate Card 112"
+    ],
+    "coreLogic": "Fixed CPM + Variable CPM + (Desired Profit / Miles) = Minimum Acceptable Target Rate. 112",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-deal-killer-hard-money-analyzer",
+    "name": "The \"Deal Killer\" Hard Money Analyzer",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Fix & Flip Investors",
+    "problem": "Need to know instantly if 12% hard money interest kills a distressed property deal. 113",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Deal Scorecard 113"
+    ],
+    "coreLogic": "Profit = ARV - (Loan + Interest + 3% Closing). If Profit > 15% ARV, Green Light. 113",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-am-i-bankable-probability-score",
+    "name": "The \"Am I Bankable?\" Probability Score",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Small Business Owners",
+    "problem": "Terrified of rejection and hard credit inquiries ruining their score. 114",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Funding Readiness Report 114"
+    ],
+    "coreLogic": "Assigns 0-100 score filtering for Revenue >$15k, FICO >600, Time >1Yr. Routes to specific tiers. 114",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-section-179-tax-slash-calculator",
+    "name": "The Section 179 \"Tax Slash\" Calculator",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Profitable Businesses",
+    "problem": "Hesitating on Q4 equipment purchases to reduce taxable income. 115",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Tax Savings PDF (for CPA) 115"
+    ],
+    "coreLogic": "Equipment Cost * Tax Bracket (assuming 100% depreciation) = Tax Savings / Net Cost. 115",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-burn-rate-runway-extender",
+    "name": "The \"Burn Rate\" Runway Extender",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Startups",
+    "problem": "Burning cash fast and needing to know the exact \"Death Date\" before missing payroll. 116",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Death Date Calendar Invite 116"
+    ],
+    "coreLogic": "Current Cash / (Monthly Expenses - Monthly Revenue) = Months of Runway Left. 116",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bad-debt-consolidator",
+    "name": "The \"Bad Debt\" Consolidator",
+    "brand": "ROKFI",
+    "industry": "funding-finance",
+    "audience": "Drowning Merchants",
+    "problem": "Crushed by daily deductions from multiple existing Merchant Cash Advances. 117",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Cash Flow Liberation Chart 117"
+    ],
+    "coreLogic": "Compares current daily burn (Payments * 22) against a new 24-month consolidation term. 117",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-equity-defender-simulator",
+    "name": "The \"Equity Defender\" Simulator",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "High-Growth Tech Founders",
+    "problem": "Ignorance to the pain of venture capital dilution until Series C ruins their exit payout. 118",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Animated Data Dashboard 118"
+    ],
+    "coreLogic": "Visualizes a side-by-side growth curve of VC equity bleed vs. a 0% equity-loss Moonshine route. 118",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bad-debt-detector-mca-killer",
+    "name": "The \"Bad Debt\" Detector (MCA Killer)",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Desperate Business Owners",
+    "problem": "Predatory MCA lenders disguise 100%+ APRs as simple \"factor rates\" in PDFs. 119",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "True Cost Report 119"
+    ],
+    "coreLogic": "OCR scans uploaded PDF offer, calculates the true APR, and flags \"DANGER\" or \"SAFE\". 119",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-runway-extender-dashboard",
+    "name": "The \"Runway Extender\" Dashboard",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "SaaS Founders",
+    "problem": "Fear of hitting zero cash; requires visual proof of how non-dilutive capital saves them. 120",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Interactive Plaid Dashboard 120"
+    ],
+    "coreLogic": "Connects to Plaid, analyzes burn rate, and visually pushes the \"Death Date\" out 6-12 months. 120",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-deal-memo-generator-ai-agent",
+    "name": "The \"Deal Memo\" Generator (AI Agent)",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Busy Founders",
+    "problem": "Hates writing extensive funding applications or executive summaries from scratch. 121",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "PDF Deal Memo / Exec Summary 121"
+    ],
+    "coreLogic": "Conversational AI asks 5-6 questions and formats answers into a banker-ready summary. 121",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-recession-proof-stress-tester",
+    "name": "The \"Recession-Proof\" Stress Tester",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Complacent Operators",
+    "problem": "Unaware of how vulnerable their cash flow is to macroeconomic shocks. 122",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Personalized Risk Report 122"
+    ],
+    "coreLogic": "AI scrapes user's URL and simulates 3 market crash scenarios tailored to their specific industry. 122",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-compliance-kyc-vault",
+    "name": "The \"Compliance & KYC\" Vault",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Disorganized Founders",
+    "problem": "Deal fatigue caused by messy corporate documents (EINs, Articles, Voided Checks). 123",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Funding Ready ZIP File 123"
+    ],
+    "coreLogic": "Users drop messy docs; system auto-verifies, renames, and packages them cleanly. 123",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-investor-data-room-template",
+    "name": "The \"Investor Data Room\" Template",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Fundraising Startups",
+    "problem": "Need a professional, secure data room to send financials to investors instantly. 124",
+    "tier": 2,
+    "assetType": "generator",
+    "inputs": [],
+    "outputs": [
+      "Private Link Data Room 124"
+    ],
+    "coreLogic": "Generates a cloneable, password-protected Next.js template hosted on Vercel. 124",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-link-in-bio-finance-deck",
+    "name": "The \"Link-in-Bio\" Finance Deck",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Modern Founders / Twitter",
+    "problem": "Standard PDF pitch decks look terrible and are unreadable on mobile devices. 125",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Mobile-First Pitch Page 125"
+    ],
+    "coreLogic": "Form-to-site generator that builds a scrollable, mobile-optimized pitch page with a lock gate. 125",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-fundability-score-widget",
+    "name": "The \"Fundability Score\" Widget",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Referral Partners (CPAs)",
+    "problem": "B2B partners need a viral tool on their own site to capture leads for Moonshine. 125",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Embeddable Dashboard Widget 125"
+    ],
+    "coreLogic": "User inputs monthly revenue; widget generates a speedometer showing instant accessible capital. 125",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-cost-of-capital-comparator",
+    "name": "The \"Cost of Capital\" Comparator",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Educated Founders",
+    "problem": "Demands radical transparency when comparing Moonshine vs VC vs MCA. 126",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Interactive Table Widget 126"
+    ],
+    "coreLogic": "Interactive table highlighting total payback amount and total equity lost across three routes. 126",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-funding-simulator",
+    "name": "The \"Funding Simulator\"",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Data-Driven Operators",
+    "problem": "Needs a gamified way to visualize avoiding bankruptcy by adding credit lines. 127, 128",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Visual Runway Chart (Web App) 128"
+    ],
+    "coreLogic": "Renders a \"Runway Chart\" crashing to zero; user toggles a $50k LOC to extend the green line. 128",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-cash-command-center-dashboard",
+    "name": "The \"Cash Command Center\" Dashboard",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Blind Operators",
+    "problem": "Unaware of daily financial leaks, phantom subscriptions, and cash bleed. 129",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "The Daily Pulse Dashboard 129"
+    ],
+    "coreLogic": "Plaid-connected n8n AI agent analyzes 30-day history and sends a daily \"Savage Wake-Up Call\". 129",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-pitch-deck-roaster",
+    "name": "The \"Pitch Deck Roaster\"",
+    "brand": "Moonshine Capital",
+    "industry": "funding-finance",
+    "audience": "Pre-Seed Founders",
+    "problem": "Terrified their pitch deck is boring or lacking critical financial metrics like CAC. 130",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Downloadable Roast Report & Score 130"
+    ],
+    "coreLogic": "OpenAI Vision scans slides as a \"Wall Street Wolf\" persona, giving specific, ruthless feedback. 130",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-amazon-dd-7-survival-calculator",
+    "name": "The \"Amazon DD+7 Survival Calculator\"",
+    "brand": "7 Figures Funding",
+    "industry": "funding-finance",
+    "audience": "Amazon Sellers",
+    "problem": "Amazon's new DD+7 policy creates a 17-21 day cash flow gap that kills restocking. 131, 132",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Liquidity Hemorrhage Report 132"
+    ],
+    "coreLogic": "Analyzes Monthly Sales + Avg Shipping Time to output the exact capital Amazon holds hostage. 132",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-bankability-scorecard",
+    "name": "The \"Bankability Scorecard\"",
+    "brand": "7 Figures Funding",
+    "industry": "funding-finance",
+    "audience": "\"Unbankable\" 1099 CEOs",
+    "problem": "Banks auto-reject up to 92% of applications; users need an alternative \"Einstein Predictor\". 131, 132",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "The Einstein Predictor (Score) 132"
+    ],
+    "coreLogic": "6-question quiz calculates a surrogate FICO-SBSS score to bypass traditional gatekeepers. 132",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "the-mentorship-roi-accelerator",
+    "name": "The \"Mentorship ROI Accelerator\"",
+    "brand": "7 Figures Funding",
+    "industry": "funding-finance",
+    "audience": "High-Ticket Coaches",
+    "problem": "Coaches lose 30% of $10k mastermind sales because students lack upfront liquidity. 131, 132",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [
+      "Coaching Program ROI Table 132"
+    ],
+    "coreLogic": "Shows how 0% credit stacking lets students pay $200/mo while using $10k for ad-spend fuel. 132",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  },
+  {
+    "id": "funding-eligibility",
+    "name": "70-Second Eligibility Score",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "General Traffic",
+    "problem": "Instantly filters users into Startup (0% interest) vs Revenue-Based paths.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [],
+    "coreLogic": "nan",
+    "primaryAction": "Check My Funding Power",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "nan"
+  },
+  {
+    "id": "investor-data-room",
+    "name": "Investor Data Room Template (Vercel Deploy)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders raising capital; acquisition entrepreneurs; indie SaaS builders",
+    "problem": "Founders need a clean, investor-ready place to host the deck, financials, and team info without emailing messy attachments.",
+    "tier": 3,
+    "assetType": "portal",
+    "inputs": [
+      "Company basics",
+      "pitch deck",
+      "financials",
+      "team bio",
+      "metrics"
+    ],
+    "outputs": [
+      "Password-protected data room link + upload structure"
+    ],
+    "coreLogic": "Every investor touchpoint is a trust test. This makes you look organized in minutes.",
+    "primaryAction": "Clone Data Room",
+    "delivery": "next-app",
+    "template": "portal",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "fundability-score",
+    "name": "Fundability Score Widget",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "SMB owners; ecommerce sellers; gig/self-employed; agencies screening clients",
+    "problem": "People guess at fundability. This gives an instant \u2018where you stand\u2019 snapshot and next steps.",
+    "tier": 1,
+    "assetType": "widget",
+    "inputs": [
+      "Monthly revenue",
+      "time in business",
+      "industry",
+      "credit band (optional)"
+    ],
+    "outputs": [
+      "Fundability score band + best-fit product paths"
+    ],
+    "coreLogic": "Turns vague interest into a concrete number\u2014and a clear next action.",
+    "primaryAction": "Improve My Score",
+    "delivery": "static-site",
+    "template": "widget",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "cash-flow-bridge",
+    "name": "Cash Flow Gap Bridge Calculator",
+    "brand": "[\"0d763d67-a3a1-40fc-b73c-e9e50ec05149\",\"e9cda464-ab5f-4c38-834f-ed52edf4db6c\"]",
+    "industry": "funding-finance",
+    "audience": "Construction Subcontractors",
+    "problem": "Calculates the exact MCA amount needed to cover payroll while waiting for a Net-30 check.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [],
+    "coreLogic": "nan",
+    "primaryAction": "Get Bridge Funds Now",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "nan"
+  },
+  {
+    "id": "amazon-stockout",
+    "name": "Amazon Stockout Death Spiral",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Amazon FBA Sellers",
+    "problem": "Quantifies revenue lost per hour during an inventory stockout vs cost of capital.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [],
+    "outputs": [],
+    "coreLogic": "nan",
+    "primaryAction": "Stop the Bleed - Fund Inventory",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "nan"
+  },
+  {
+    "id": "cost-comparator",
+    "name": "Cost of Capital Comparator",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders comparing offers; brokers; finance ops leads",
+    "problem": "Most offers hide the real cost. This makes payback and trade-offs obvious (MCA vs LOC vs equity).",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Offer amount",
+      "term",
+      "rate/factor",
+      "fees",
+      "expected revenue"
+    ],
+    "outputs": [
+      "Side-by-side payback + effective APR + \u2018pain meter\u2019"
+    ],
+    "coreLogic": "Transparency as a weapon\u2014prevents expensive \u2018fast money\u2019 mistakes.",
+    "primaryAction": "See Real Costs",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "equity-defender-simulator",
+    "name": "Equity Defender Simulator",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Startups & SaaS founders considering VC vs non-dilutive capital",
+    "problem": "Visualizes how dilution compounds across rounds vs non-dilutive paths.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Valuation",
+      "raise amount",
+      "assumed future rounds"
+    ],
+    "outputs": [
+      "Ownership dilution simulation + non-dilutive comparison"
+    ],
+    "coreLogic": "People don\u2019t \u2018feel\u2019 dilution until they see it. This makes the pain visible.",
+    "primaryAction": "See Your Dilution",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "bad-debt-detector",
+    "name": "Bad Debt Detector (MCA Killer)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "SMBs offered MCA/fast funding; founders under time pressure",
+    "problem": "Extracts terms from offers and calculates true APR + red flags (factor-rate traps).",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Offer PDF or terms",
+      "amount",
+      "factor/rate",
+      "holdback",
+      "term"
+    ],
+    "outputs": [
+      "True cost report + red-flag list + safer alternatives"
+    ],
+    "coreLogic": "Saves you from signing the financial equivalent of a bear trap.",
+    "primaryAction": "Analyze My Offer",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "runway-extender-dashboard",
+    "name": "Runway Extender Dashboard",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Startups; agencies; ecommerce brands watching cash",
+    "problem": "Projects burn + \u2018death date\u2019 and shows how different capital injections extend runway.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Cash on hand",
+      "monthly burn",
+      "revenue trend (or connect Stripe/Plaid)"
+    ],
+    "outputs": [
+      "Runway chart + scenarios (\u2018inject capital\u2019 toggles)"
+    ],
+    "coreLogic": "Urgency becomes math. Math becomes action.",
+    "primaryAction": "Check My Runway",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "deal-memo-generator",
+    "name": "Deal Memo Generator (AI Agent)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders applying for capital; acquisition buyers; brokers prepping submissions",
+    "problem": "Turns messy founder answers into a lender/investor-ready executive summary / deal memo.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "5\u20136 business questions",
+      "basic financials",
+      "use of funds"
+    ],
+    "outputs": [
+      "Banker-style deal memo PDF + submission-ready summary"
+    ],
+    "coreLogic": "Professional packaging increases approvals and speed.",
+    "primaryAction": "Generate My Deal Memo",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "recession-proof-stress-tester",
+    "name": "Recession-Proof Stress Tester",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "SMBs; ecommerce; agencies; local service businesses",
+    "problem": "Simulates downturn scenarios to reveal cashflow vulnerabilities and buffers (LOC/working capital).",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Business URL",
+      "model description",
+      "revenue + expense ranges"
+    ],
+    "outputs": [
+      "Risk report + mitigation actions + capital buffer plan"
+    ],
+    "coreLogic": "Better to discover weakness in a dashboard than in bankruptcy court.",
+    "primaryAction": "Stress Test My Business",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "compliance-kyc-vault",
+    "name": "Compliance & KYC Vault",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders who hate paperwork; SMB owners; brokers collecting docs",
+    "problem": "Organizes, verifies, and packages business docs into a funding-ready bundle.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "EIN letter",
+      "Articles/Operating Agreement",
+      "ID",
+      "voided check",
+      "bank statements"
+    ],
+    "outputs": [
+      "Verified doc set + standardized naming + ZIP export"
+    ],
+    "coreLogic": "Cuts underwriting friction and prevents \u2018missing-doc\u2019 delays.",
+    "primaryAction": "Organize My Docs",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "link-in-bio-finance-deck",
+    "name": "Link-in-Bio Finance Deck (Pitch Page Generator)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders raising capital on LinkedIn/Twitter; creators; indie SaaS",
+    "problem": "Creates a mobile-first \u2018pitch page\u2019 so founders can share one clean link (not a PDF).",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Company basics",
+      "traction",
+      "ask",
+      "links/assets"
+    ],
+    "outputs": [
+      "Scrollable pitch page link + gated downloads + booking button"
+    ],
+    "coreLogic": "Modern fundraising happens on phones. PDFs die there.",
+    "primaryAction": "Build My Pitch Page",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "funding-simulator",
+    "name": "Funding Simulator (Capital Stack Playground)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders deciding between LOC/RBF/advance; finance ops leads",
+    "problem": "Lets users toggle funding options and see runway/cashflow impact like a finance sandbox.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Revenue",
+      "cash",
+      "burn",
+      "desired injection"
+    ],
+    "outputs": [
+      "Runway + cashflow chart with option toggles"
+    ],
+    "coreLogic": "Turns \u2018maybe\u2019 into numbers\u2014and numbers into decisions.",
+    "primaryAction": "Play With Scenarios",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  },
+  {
+    "id": "cash-command-center",
+    "name": "Cash Command Center (SaaS-lite Dashboard)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Operators; SMB owners; agencies; ecommerce founders",
+    "problem": "A persistent dashboard that surfaces cash signals + daily \u2018wake-up call\u2019 insights.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Bank/Stripe connection or CSV upload"
+    ],
+    "outputs": [
+      "Daily pulse insights + cash alerts + action list"
+    ],
+    "coreLogic": "Creates a habit. When you need funding, the button is already there.",
+    "primaryAction": "Get the Dashboard",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/get-matched"
+  },
+  {
+    "id": "pitch-deck-roaster",
+    "name": "Pitch Deck Roaster (AI Roast Report)",
+    "brand": "nan",
+    "industry": "funding-finance",
+    "audience": "Founders; acquisition entrepreneurs; anyone pitching investors/lenders",
+    "problem": "Gives ruthless, specific feedback on decks and outputs a \u2018roast report\u2019 + fundability score.",
+    "tier": 1,
+    "assetType": "calculator",
+    "inputs": [
+      "Pitch deck PDF"
+    ],
+    "outputs": [
+      "Roast report + slide-by-slide fixes + score"
+    ],
+    "coreLogic": "A good deck gets meetings. A bad deck gets ignored.",
+    "primaryAction": "Roast My Deck",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "engineering-tools-v2",
+    "ctaLink": "https://www.distilledfunding.com/book"
+  }
+]
