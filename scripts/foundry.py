@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 import argparse, json, re, shutil
 from pathlib import Path
@@ -78,7 +77,8 @@ def formula(a,d):
     t=f"{a.get('name','')} {a.get('problem','')} {a.get('assetType','')}".lower()
     if "score" in t or "risk" in t or "qualifier" in t:
         return {"type":"score","label":"Readiness Score","expression":"weighted score from inputs","resultLabel":"Score","resultFormat":"score"}
-    return {
+
+    formulas = {
       "insurance":{"type":"gap","label":"Premium Finance Gap","expression":"annualPremium * requiredDepositPct / 100 - cashAvailable","resultLabel":"Estimated Gap","resultFormat":"currency"},
       "amazon":{"type":"opportunity_cost","label":"Opportunity Cost","expression":"heldPayout * monthlyRoiPct / 100 * daysHeld / 30","resultLabel":"Missed Profit","resultFormat":"currency"},
       "tax":{"type":"gap","label":"Tax Cash Gap","expression":"taxBalance - cashAvailable","resultLabel":"Advance Need","resultFormat":"currency"},
@@ -86,9 +86,12 @@ def formula(a,d):
       "trucking":{"type":"cost_of_delay","label":"Repair-to-Revenue Impact","expression":"repairCost + dailyRevenue * downtimeDays","resultLabel":"Revenue at Risk","resultFormat":"currency"},
       "commission":{"type":"commission_plan","label":"Required Lead Volume","expression":"targetIncome / avgCommission / (closeRatePct / 100)","resultLabel":"Required Leads","resultFormat":"number"},
       "construction":{"type":"gap","label":"Material Financing Need","expression":"projectValue * materialCostPct / 100 - cashAvailable","resultLabel":"Material Gap","resultFormat":"currency"},
+      "underwriting":{"type":"score","label":"Funding Readiness Score","expression":"weighted score from monthlyRevenue, creditScore, cashAvailable","resultLabel":"Readiness Score","resultFormat":"score"},
       "capital":{"type":"runway","label":"Runway Coverage","expression":"raiseAmount / monthlyBurn + currentRunway","resultLabel":"Projected Runway Months","resultFormat":"number"},
       "default":{"type":"gap","label":"Funding Gap","expression":"amountNeeded - cashAvailable","resultLabel":"Estimated Gap","resultFormat":"currency"}
-    }[d]
+    }
+
+    return formulas.get(d, formulas["default"])
 
 def outputs(f):
     return {
