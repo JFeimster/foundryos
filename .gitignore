@@ -1,0 +1,17 @@
+# Generated assets
+outputs/
+
+# Generated specs
+specs/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
