@@ -1,0 +1,14 @@
+{
+  "id": "cash-flow-gap",
+  "name": "Cash Flow Gap Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["cash flow", "working capital", "gap", "short-term funding"],
+  "audiences": ["Business Owners", "CFOs", "Founders"],
+  "problemStatements": ["Estimate short-term working capital gaps to cover upcoming expenses."],
+  "inputs": ["Current Cash", "Upcoming Expenses", "Expected Receivables"],
+  "outputs": ["Estimated Cash Gap", "Runway Impact", "Actionable Funding Plan"],
+  "calculations": ["Upcoming Expenses - Current Cash - Expected Receivables"],
+  "recommendations": ["Explore lines of credit", "Consider short-term bridging options"],
+  "routingTags": ["funding", "working-capital"]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "0.3",
+  "id": "the-credit-score-vs-cash-flow-analyzer",
+  "title": "The Credit Score vs. Cash Flow Analyzer",
+  "brand": "Test",
+  "audience": "Sub-Prime Micro-Businesses",
+  "industry": "funding-finance",
+  "tier": 1,
+  "assetType": "scorecard",
+  "domain": "underwriting",
+  "problem": "Feeling penalized by traditional banks for low FICO scores despite strong revenue.",
+  "promise": "Turn feeling penalized by traditional banks for low fico scores despite strong revenue. into a clear next step.",
+  "primaryAction": "Get My Estimate",
+  "fields": [
+    {
+      "key": "monthlyRevenue",
+      "label": "Monthly Revenue",
+      "type": "currency",
+      "default": 50000
+    },
+    {
+      "key": "creditScore",
+      "label": "Credit Score",
+      "type": "number",
+      "default": 620
+    },
+    {
+      "key": "cashAvailable",
+      "label": "Cash Available",
+      "type": "currency",
+      "default": 10000
+    }
+  ],
+  "formula": {
+    "type": "score",
+    "label": "Readiness Score",
+    "expression": "weighted score from inputs",
+    "resultLabel": "Score",
+    "resultFormat": "score"
+  },
+  "outputs": [
+    "Bankability Shift Report (Image) 22"
+  ],
+  "benefits": [
+    "Quantify the problem in plain language.",
+    "Give the visitor an immediate result.",
+    "Route high-intent leads into the next action."
+  ],
+  "leadCapture": {
+    "enabled": true,
+    "fields": [
+      "name",
+      "email",
+      "phone",
+      "company"
+    ],
+    "routingNote": "Replace demo handler with CRM/form/webhook."
+  },
+  "modules": [],
+  "deployment": {
+    "type": "static",
+    "entry": "index.html"
+  },
+  "sourceAsset": {
+    "id": "the-credit-score-vs-cash-flow-analyzer",
+    "name": "The Credit Score vs. Cash Flow Analyzer",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Sub-Prime Micro-Businesses",
+    "problem": "Feeling penalized by traditional banks for low FICO scores despite strong revenue. 22",
+    "tier": 1,
+    "assetType": "scorecard",
+    "inputs": [],
+    "outputs": [
+      "Bankability Shift Report (Image) 22"
+    ],
+    "coreLogic": "Compares FICO (<600 = Bank Fail) against Monthly Deposits (>$5k = Breezy Pass). 22",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "static-calculator",
+    "source": "funding-tools-financial-calculators"
+  }
+}

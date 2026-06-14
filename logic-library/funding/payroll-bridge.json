@@ -1,0 +1,14 @@
+{
+  "id": "payroll-bridge",
+  "name": "Payroll Bridge Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["payroll", "bridge capital", "timing gaps", "staffing"],
+  "audiences": ["Business Owners", "HR Managers", "Operations Directors"],
+  "problemStatements": ["Evaluate whether bridge capital is needed to cover payroll timing gaps."],
+  "inputs": ["Weekly Payroll", "Cash Available", "Receivables Due Within 30 Days"],
+  "outputs": ["Bridge Amount Needed", "Cash Cushion", "Recommended Gap Solution"],
+  "calculations": ["Weekly Payroll - Cash Available"],
+  "recommendations": ["Explore invoice factoring", "Review short-term lines of credit"],
+  "routingTags": ["funding", "payroll", "bridge"]
+}

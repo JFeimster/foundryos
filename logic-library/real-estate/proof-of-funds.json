@@ -1,0 +1,14 @@
+{
+  "id": "proof-of-funds",
+  "name": "Proof of Funds Profile",
+  "domain": "real-estate",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["proof of funds", "investors", "offers", "readiness"],
+  "audiences": ["Real Estate Investors", "Wholesalers", "Buyers"],
+  "problemStatements": ["Prepare proof-of-funds readiness to make competitive offers."],
+  "inputs": ["Target Purchase Price", "Liquid Cash Available", "Pre-Approval Amount"],
+  "outputs": ["Offer Readiness Score", "Funding Gap", "Actionable Next Steps"],
+  "calculations": ["Target Purchase Price - Liquid Cash Available - Pre-Approval Amount"],
+  "recommendations": ["Secure additional hard money lines", "Partner for equity"],
+  "routingTags": ["real-estate", "proof-of-funds", "readiness"]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "premium-finance-gap",
+  "name": "Premium Finance Gap Profile",
+  "domain": "insurance",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["premium", "finance", "insurance", "gap", "policy"],
+  "audiences": ["Business Owners", "Insurance Agents", "Risk Managers"],
+  "problemStatements": ["Evaluate whether insurance premium financing could smooth cash flow."],
+  "inputs": ["Annual Premium", "Required Down Payment %", "Cash Available"],
+  "outputs": ["Premium Finance Gap", "Monthly Installment Estimate", "Liquidity Impact"],
+  "calculations": ["Annual Premium * Required Down Payment % - Cash Available"],
+  "recommendations": ["Explore premium financing options", "Review policy limits to reduce costs"],
+  "routingTags": ["insurance", "premium-finance"]
+}

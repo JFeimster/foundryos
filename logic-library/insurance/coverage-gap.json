@@ -1,0 +1,14 @@
+{
+  "id": "coverage-gap",
+  "name": "Coverage Gap Profile",
+  "domain": "insurance",
+  "assetTypes": ["scorecard", "calculator", "simulator"],
+  "keywords": ["coverage", "gap", "liability", "exposure"],
+  "audiences": ["Business Owners", "Insurance Agents", "Risk Managers"],
+  "problemStatements": ["Identify possible insurance coverage gaps based on business operations."],
+  "inputs": ["Industry Sector", "Annual Revenue", "Employee Count"],
+  "outputs": ["Identified Coverage Gaps", "Estimated Exposure Risk", "Recommended Endorsements"],
+  "calculations": ["Rule-based gap identification based on industry and size"],
+  "recommendations": ["Add Cyber Liability", "Increase Umbrella Limits", "Review Workers Comp classification"],
+  "routingTags": ["insurance", "coverage", "risk-assessment"]
+}

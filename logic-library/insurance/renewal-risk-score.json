@@ -1,0 +1,14 @@
+{
+  "id": "renewal-risk-score",
+  "name": "Renewal Risk Score Profile",
+  "domain": "insurance",
+  "assetTypes": ["scorecard", "calculator", "simulator"],
+  "keywords": ["renewal", "risk", "claims", "policy changes"],
+  "audiences": ["Business Owners", "Insurance Agents", "Risk Managers"],
+  "problemStatements": ["Assess renewal risk based on premium increases, claims, revenue, and policy changes."],
+  "inputs": ["Expected Premium Increase %", "Recent Claims Count", "Revenue Change %"],
+  "outputs": ["Renewal Risk Score", "Likelihood of Shopping", "Retention Action Plan"],
+  "calculations": ["Weighted score of Premium Increase, Claims, and Revenue"],
+  "recommendations": ["Proactively review alternatives", "Schedule retention meeting immediately"],
+  "routingTags": ["insurance", "renewal", "retention"]
+}

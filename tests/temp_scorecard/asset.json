@@ -1,0 +1,19 @@
+{
+  "id": "the-credit-score-vs-cash-flow-analyzer",
+  "name": "The Credit Score vs. Cash Flow Analyzer",
+  "brand": "DAC & Bank Breezy",
+  "industry": "funding-finance",
+  "audience": "Sub-Prime Micro-Businesses",
+  "problem": "Feeling penalized by traditional banks for low FICO scores despite strong revenue. 22",
+  "tier": 1,
+  "assetType": "scorecard",
+  "inputs": [],
+  "outputs": [
+    "Bankability Shift Report (Image) 22"
+  ],
+  "coreLogic": "Compares FICO (<600 = Bank Fail) against Monthly Deposits (>$5k = Breezy Pass). 22",
+  "primaryAction": "Get My Estimate",
+  "delivery": "static-site",
+  "template": "static-calculator",
+  "source": "funding-tools-financial-calculators"
+}

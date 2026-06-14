@@ -1,0 +1,14 @@
+{
+  "id": "inventory-cash-gap",
+  "name": "Inventory Cash Gap Profile",
+  "domain": "ecommerce",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["inventory", "cash", "gap", "supply chain", "purchasing"],
+  "audiences": ["Ecommerce Operators", "Supply Chain Managers", "Brand Owners"],
+  "problemStatements": ["Estimate inventory funding needs to meet upcoming demand."],
+  "inputs": ["Target Inventory Value", "Supplier Deposit Required", "Cash on Hand"],
+  "outputs": ["Inventory Funding Gap", "Lost Sales Risk", "Capital Plan"],
+  "calculations": ["Target Inventory Value * Supplier Deposit Required - Cash on Hand"],
+  "recommendations": ["Explore inventory financing", "Use PO financing for large orders"],
+  "routingTags": ["ecommerce", "inventory", "funding"]
+}

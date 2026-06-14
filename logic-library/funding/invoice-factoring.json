@@ -1,0 +1,14 @@
+{
+  "id": "invoice-factoring",
+  "name": "Invoice Factoring Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["invoice", "factoring", "unpaid invoices", "B2B"],
+  "audiences": ["B2B Business Owners", "CFOs", "Credit Managers"],
+  "problemStatements": ["Estimate cash available from unpaid invoices."],
+  "inputs": ["Total Outstanding Invoices", "Advance Rate %", "Factoring Fee %"],
+  "outputs": ["Immediate Cash Available", "Total Factoring Cost", "Net Realized Value"],
+  "calculations": ["Total Outstanding Invoices * Advance Rate %"],
+  "recommendations": ["Consider invoice factoring for immediate liquidity", "Improve AR collection process"],
+  "routingTags": ["funding", "factoring", "receivables"]
+}

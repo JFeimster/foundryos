@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "0.3",
+  "id": "the-gig-income-funding-predictor-giggle-finance",
+  "title": "The Gig Income Funding Predictor (\"Giggle Finance\")",
+  "brand": "Test",
+  "audience": "Gig Economy Workers",
+  "industry": "funding-finance",
+  "tier": 2,
+  "assetType": "simulator",
+  "domain": "underwriting",
+  "problem": "Need instant funding predictions based on app revenue without hard credit pulls.",
+  "promise": "Turn need instant funding predictions based on app revenue without hard credit pulls. into a clear next step.",
+  "primaryAction": "Get My Estimate",
+  "fields": [
+    {
+      "key": "monthlyRevenue",
+      "label": "Monthly Revenue",
+      "type": "currency",
+      "default": 50000
+    },
+    {
+      "key": "creditScore",
+      "label": "Credit Score",
+      "type": "number",
+      "default": 620
+    },
+    {
+      "key": "cashAvailable",
+      "label": "Cash Available",
+      "type": "currency",
+      "default": 10000
+    }
+  ],
+  "formula": {
+    "type": "score",
+    "label": "Funding Readiness Score",
+    "expression": "weighted score from monthlyRevenue, creditScore, cashAvailable",
+    "resultLabel": "Readiness Score",
+    "resultFormat": "score"
+  },
+  "outputs": [
+    "Back on the Road Funding Score 5"
+  ],
+  "benefits": [
+    "Quantify the problem in plain language.",
+    "Give the visitor an immediate result.",
+    "Route high-intent leads into the next action."
+  ],
+  "leadCapture": {
+    "enabled": true,
+    "fields": [
+      "name",
+      "email",
+      "phone",
+      "company"
+    ],
+    "routingNote": "Replace demo handler with CRM/form/webhook."
+  },
+  "modules": [],
+  "deployment": {
+    "type": "static",
+    "entry": "index.html"
+  },
+  "sourceAsset": {
+    "id": "the-gig-income-funding-predictor-giggle-finance",
+    "name": "The Gig Income Funding Predictor (\"Giggle Finance\")",
+    "brand": "DAC & Bank Breezy",
+    "industry": "funding-finance",
+    "audience": "Gig Economy Workers",
+    "problem": "Need instant funding predictions based on app revenue without hard credit pulls. 5, 6",
+    "tier": 2,
+    "assetType": "simulator",
+    "inputs": [],
+    "outputs": [
+      "Back on the Road Funding Score 5"
+    ],
+    "coreLogic": "Avg Weekly Earnings * 4, modified by a seniority factor (e.g., *1.2 for 2+ years). 5",
+    "primaryAction": "Get My Estimate",
+    "delivery": "static-site",
+    "template": "simulator",
+    "source": "funding-tools-financial-calculators"
+  }
+}

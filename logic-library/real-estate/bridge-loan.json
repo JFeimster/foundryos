@@ -1,0 +1,14 @@
+{
+  "id": "bridge-loan",
+  "name": "Bridge Loan Profile",
+  "domain": "real-estate",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["bridge loan", "short-term", "borrowers", "needs"],
+  "audiences": ["Real Estate Investors", "Developers", "Borrowers"],
+  "problemStatements": ["Evaluate short-term bridge loan needs for acquisitions or transitions."],
+  "inputs": ["Current Property Value", "Target Loan Amount", "Expected Rehab Cost"],
+  "outputs": ["Estimated LTV", "Estimated Monthly Carry", "Bridge Feasibility"],
+  "calculations": ["Target Loan Amount / Current Property Value"],
+  "recommendations": ["Review hard money bridge options", "Consider private money lenders"],
+  "routingTags": ["real-estate", "bridge-loan", "funding"]
+}

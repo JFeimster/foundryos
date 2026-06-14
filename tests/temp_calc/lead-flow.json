@@ -1,0 +1,47 @@
+{
+  "primaryAction": "Get My Estimate",
+  "leadFields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "name": "business_name",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "annual_premium",
+      "type": "number",
+      "required": true
+    }
+  ],
+  "routingTags": [
+    "insurance",
+    "premium-finance"
+  ],
+  "qualificationRules": [
+    {
+      "condition": "all fields provided",
+      "action": "route to sales"
+    }
+  ],
+  "followUpSequence": [
+    {
+      "day": 0,
+      "type": "email",
+      "subject": "Your The Premium Finance Gap Calculator is inside"
+    },
+    {
+      "day": 2,
+      "type": "email",
+      "subject": "Any questions?"
+    }
+  ]
+}

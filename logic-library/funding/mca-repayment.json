@@ -1,0 +1,14 @@
+{
+  "id": "mca-repayment",
+  "name": "MCA Repayment Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["mca", "repayment", "pressure", "merchant cash advance"],
+  "audiences": ["Business Owners", "CFOs", "Retail Managers"],
+  "problemStatements": ["Understand merchant cash advance repayment pressure."],
+  "inputs": ["MCA Balance", "Daily Remittance", "Monthly Revenue"],
+  "outputs": ["Repayment Pressure Score", "Effective APR Estimate", "Refinance Savings"],
+  "calculations": ["Daily Remittance * 22 / Monthly Revenue"],
+  "recommendations": ["Consider term loan consolidation", "Review alternative funding to escape daily draw"],
+  "routingTags": ["funding", "mca", "consolidation"]
+}

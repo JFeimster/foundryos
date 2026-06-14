@@ -1,0 +1,52 @@
+{
+  "primaryAction": "Get My Estimate",
+  "leadFields": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "name": "business_name",
+      "type": "string",
+      "required": false
+    },
+    {
+      "name": "monthly_revenue",
+      "type": "number",
+      "required": true
+    },
+    {
+      "name": "funding_need",
+      "type": "number",
+      "required": true
+    }
+  ],
+  "routingTags": [
+    "funding",
+    "working-capital"
+  ],
+  "qualificationRules": [
+    {
+      "condition": "all fields provided",
+      "action": "route to sales"
+    }
+  ],
+  "followUpSequence": [
+    {
+      "day": 0,
+      "type": "email",
+      "subject": "Your The Credit Score vs. Cash Flow Analyzer is inside"
+    },
+    {
+      "day": 2,
+      "type": "email",
+      "subject": "Any questions?"
+    }
+  ]
+}
