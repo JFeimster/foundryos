@@ -1,0 +1,14 @@
+{
+  "id": "investor-roi",
+  "name": "Investor ROI Profile",
+  "domain": "real-estate",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["investor", "roi", "opportunity", "returns", "yield"],
+  "audiences": ["Real Estate Investors", "Fund Managers", "Passive Investors"],
+  "problemStatements": ["Estimate basic ROI and yield on a real estate opportunity."],
+  "inputs": ["Total Investment", "Expected Annual Cash Flow", "Projected Appreciation"],
+  "outputs": ["Cash-on-Cash Return", "Total Estimated ROI", "Risk-Adjusted Yield"],
+  "calculations": ["(Expected Annual Cash Flow + Projected Appreciation) / Total Investment"],
+  "recommendations": ["Compare against index fund yields", "Proceed to full underwriting"],
+  "routingTags": ["real-estate", "roi", "analysis"]
+}

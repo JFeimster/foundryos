@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+from engines.logic_engine import get_logic_profile
+from engines.copy_engine import generate_copy_profile
+from engines.design_engine import get_design_system
+from engines.lead_flow_engine import generate_lead_flow
 from .common import common_context, readme_for, render, write_bundle
 
 
@@ -172,7 +176,13 @@ document.querySelectorAll("input").forEach(input => input.addEventListener("inpu
 
 
 def build(asset, spec, brand, target_dir):
-    context = common_context(asset, spec, brand)
+    logic_profile = get_logic_profile(asset)
+    copy_profile = generate_copy_profile(asset, logic_profile)
+    design_system = get_design_system(asset)
+    lead_flow = generate_lead_flow(asset, logic_profile, target_dir)
+
+    context = common_context(asset, spec, brand, copy_profile, design_system)
     html_text = render(HTML, context)
-    return write_bundle(target_dir, html_text=html_text, css_text=CSS, js_text=JS, asset=asset, spec=spec, readme_text=readme_for(spec, "scorecard"))
+    readme_text = readme_for(spec, "scorecard", asset, logic_profile, lead_flow)
+    return write_bundle(target_dir, html_text=html_text, css_text=CSS, js_text=JS, asset=asset, spec=spec, readme_text=readme_text)
 

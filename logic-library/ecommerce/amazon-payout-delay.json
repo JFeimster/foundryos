@@ -1,0 +1,14 @@
+{
+  "id": "amazon-payout-delay",
+  "name": "Amazon Payout Delay Profile",
+  "domain": "ecommerce",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["amazon", "payout", "delay", "marketplace", "seller"],
+  "audiences": ["Amazon Sellers", "Ecommerce Operators", "Brand Owners"],
+  "problemStatements": ["Estimate cash-flow gaps caused by marketplace payout delays."],
+  "inputs": ["Payout Held", "Days Held", "Expected Monthly ROI %"],
+  "outputs": ["Opportunity Cost", "Working Capital Drag", "Recommended Solution"],
+  "calculations": ["Held Payout * Monthly ROI % * Days Held / 30"],
+  "recommendations": ["Consider daily payout advances", "Negotiate longer supplier terms"],
+  "routingTags": ["ecommerce", "amazon", "payout"]
+}

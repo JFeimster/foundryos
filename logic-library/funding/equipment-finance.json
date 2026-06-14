@@ -1,0 +1,14 @@
+{
+  "id": "equipment-finance",
+  "name": "Equipment Finance Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["equipment", "financing", "monthly payment", "pressure"],
+  "audiences": ["Business Owners", "Operations Managers", "Fleet Managers"],
+  "problemStatements": ["Evaluate equipment financing needs and expected monthly payment pressure."],
+  "inputs": ["Equipment Cost", "Down Payment", "Term Length"],
+  "outputs": ["Estimated Monthly Payment", "Total Interest Cost", "Cash Flow Impact"],
+  "calculations": ["(Equipment Cost - Down Payment) / Term Length + Interest"],
+  "recommendations": ["Explore equipment leasing vs buying", "Seek competitive equipment loan terms"],
+  "routingTags": ["funding", "equipment"]
+}

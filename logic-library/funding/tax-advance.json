@@ -1,0 +1,14 @@
+{
+  "id": "tax-advance",
+  "name": "Tax Advance Profile",
+  "domain": "funding",
+  "assetTypes": ["calculator", "scorecard"],
+  "keywords": ["tax", "advance", "obligations", "irs"],
+  "audiences": ["Business Owners", "Accountants"],
+  "problemStatements": ["Evaluate whether capital is needed to cover tax obligations."],
+  "inputs": ["Tax Balance Due", "Cash Available", "Days Until Deadline"],
+  "outputs": ["Advance Need", "Timing Risk", "Liquidity Impact"],
+  "calculations": ["Tax Balance Due - Cash Available"],
+  "recommendations": ["Look into immediate tax advance options", "Consult tax professional for payment plans"],
+  "routingTags": ["funding", "tax"]
+}

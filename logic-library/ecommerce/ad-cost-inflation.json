@@ -1,0 +1,14 @@
+{
+  "id": "ad-cost-inflation",
+  "name": "Ad Cost Inflation Profile",
+  "domain": "ecommerce",
+  "assetTypes": ["calculator", "scorecard", "simulator"],
+  "keywords": ["ad cost", "inflation", "margin pressure", "ROAS", "CAC"],
+  "audiences": ["Ecommerce Operators", "Marketing Directors", "Founders"],
+  "problemStatements": ["Evaluate rising ad costs and margin pressure on profitability."],
+  "inputs": ["Current CAC", "Average Order Value", "Target Profit Margin %"],
+  "outputs": ["Breakeven ROAS", "Margin Erosion Risk", "Required LTV Improvement"],
+  "calculations": ["Average Order Value * Target Profit Margin % - Current CAC"],
+  "recommendations": ["Focus on retention and LTV", "Diversify ad channels to reduce CAC"],
+  "routingTags": ["ecommerce", "marketing", "margin"]
+}

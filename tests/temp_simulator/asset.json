@@ -1,0 +1,19 @@
+{
+  "id": "the-gig-income-funding-predictor-giggle-finance",
+  "name": "The Gig Income Funding Predictor (\"Giggle Finance\")",
+  "brand": "DAC & Bank Breezy",
+  "industry": "funding-finance",
+  "audience": "Gig Economy Workers",
+  "problem": "Need instant funding predictions based on app revenue without hard credit pulls. 5, 6",
+  "tier": 2,
+  "assetType": "simulator",
+  "inputs": [],
+  "outputs": [
+    "Back on the Road Funding Score 5"
+  ],
+  "coreLogic": "Avg Weekly Earnings * 4, modified by a seniority factor (e.g., *1.2 for 2+ years). 5",
+  "primaryAction": "Get My Estimate",
+  "delivery": "static-site",
+  "template": "simulator",
+  "source": "funding-tools-financial-calculators"
+}
