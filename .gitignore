@@ -1,3 +1,20 @@
+# FoundryOS generated/local files
+outputs/
+specs/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
 # Generated assets
 outputs/
 
